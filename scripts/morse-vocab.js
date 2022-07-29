@@ -27,4 +27,12 @@ const morseVocabulary = {
   Z: '--..',
 };
 
+export const reversedMorse = Object.entries(morseVocabulary).reduce(
+  (acc, [key, value]) => {
+    acc[value] = key;
+    return acc;
+  },
+  {}
+);
+
 export default morseVocabulary;
