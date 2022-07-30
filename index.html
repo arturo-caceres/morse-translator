@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Morse Code Translator</title>
-    <script src="./scripts/main.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script type="module" src="./scripts/DOM.js" defer></script>
   </head>
   <body>
-    <section id="main_section">
-      <h1>Morse Decoder</h1>
-      <div>
-        <h2 class="box-title">Text to translate</h2>
-        <textarea type="text" placeholder="Insert text here"> </textarea>
+    <section class="section">
+      <h1 class="section_title">Morse Decoder</h1>
+      <div class="section_container">
+        <h3 class="section_subtitle">Translate a Message</h3>
+        <textarea
+          id="inputText"
+          class="section_input area_text"
+          type="text"
+          placeholder="Insert text here"
+        ></textarea>
+        <button id="primaryBtn" class="section_btn">Translate</button>
       </div>
-      <div>
-        <h2 class="box-title">Morse Code</h2>
-        <textarea type="text" placeholder="Insert text here"> </textarea>
+      <div class="section_container">
+        <h3 class="section_subtitle">Morse Code</h3>
+        <textarea
+          id="inputMorse"
+          class="section_input area_morse"
+          type="text"
+          placeholder="Insert morse code here"
+        ></textarea>
+        <button id="secondaryBtn" class="section_btn">Translate</button>
       </div>
     </section>
   </body>

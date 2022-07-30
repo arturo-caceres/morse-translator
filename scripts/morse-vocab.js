@@ -25,6 +25,7 @@ const morseVocabulary = {
   X: '-..-',
   Y: '-.--',
   Z: '--..',
+  ' ': '/',
 };
 
 export const reversedMorse = Object.entries(morseVocabulary).reduce(
