@@ -1,0 +1,43 @@
+* {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+  padding: 0px;
+  max-width: 400px;
+  margin: 300px auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 7px;
+  text-align: center;
+  justify-content: center;
+  background-color: #3b0d11;
+}
+.section_title {
+  background-color: #3b0d11;
+  color: white;
+}
+.section_subtitle {
+  background-color: #6a3937;
+  color: white;
+}
+.section_container {
+  background-color: #6a3937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+}
+.section_btn {
+  background-color: #706563;
+  color: whitesmoke;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+}
+.section_input {
+  width: 250px;
+  height: 75px;
+}
