@@ -1,5 +1,7 @@
+@use './partials/palette';
+
 * {
-  background-color: white;
+  background-color: palette.$senary-color;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,23 +11,23 @@
   margin: 300px auto;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 7px;
   text-align: center;
   justify-content: center;
-  background-color: #3b0d11;
+  background-color: palette.$secondary-color;
 
   &_title {
-    background-color: #3b0d11;
-    color: white;
+    background-color: palette.$secondary-color;
+    color: palette.$quaternary-color;
   }
   &_subtitle {
-    background-color: #6a3937;
-    color: white;
+    background-color: palette.$primary-color;
+    color: palette.$quaternary-color;
   }
 
   &_container {
-    background-color: #6a3937;
+    background-color: palette.$primary-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,8 +35,8 @@
   }
 
   &_btn {
-    background-color: #706563;
-    color: whitesmoke;
+    background-color: palette.$tertiary-color;
+    color: palette.$quinary-color;
     width: 100px;
     margin: 5px;
     padding: 5px;
@@ -43,5 +45,6 @@
   &_input {
     width: 250px;
     height: 75px;
+    background-color: palette.$quinary-color;
   }
 }
