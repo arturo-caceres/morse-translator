@@ -5,7 +5,7 @@ export function translateToMorse(englishText) {
     .toUpperCase()
     .split('')
     .map((letter) => {
-      letter = morseVocabulary[letter] || ' ';
+      letter = morseVocabulary[letter] || 'Invalid Input';
       return letter;
     })
     .join(' ');
@@ -17,7 +17,7 @@ export function morseToEnglish(morseText) {
   const wordExtendedMorse = morseText
     .split(' ')
     .map((code) => {
-      code = reversedMorse[code] || ' ';
+      code = reversedMorse[code] || 'Invalid Input';
       return code;
     })
     .join('');
