@@ -2,10 +2,14 @@
 
 https://morse-code-ac.netlify.app/
 
-## Outline
+## Purpose
 
-This task will require you to create a web page Morse Code translator.
-The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
+The purpose of this challenge is to apply Javascript knowledge to create a morse translator. 
+
+## Tech stack
+- **Javascript**
+- **HTML** 
+- **SCSS**
 
 ## MVP
 
