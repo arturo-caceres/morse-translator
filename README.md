@@ -2,14 +2,17 @@
 
 https://morse-code-ac.netlify.app/
 
+
 ## Purpose
 
 The purpose of this challenge is to apply Javascript knowledge to create a morse translator. 
+
 
 ## Tech stack
 - **Javascript**
 - **HTML** 
 - **SCSS**
+
 
 ## MVP
 
