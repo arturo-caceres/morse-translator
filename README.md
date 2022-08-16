@@ -29,3 +29,37 @@ The purpose of this challenge is to apply Javascript knowledge to create a morse
 - Make sure to separate pure JS functions and DOM manipulation
 
 - Add unit testins for each of the pure function that your translator uses (each function should have at least 4 tests, think of edge case, wrong inputs, etc ...)
+
+
+```js
+// A to Z in Morse Code
+{
+   "A": ".-",
+   "B": "-...",
+   "C": "-.-.",
+   "D": "-..",
+   "E": ".",
+   "F": "..-.",
+   "G": "--.",
+   "H": "....",
+   "I": "..",
+   "J": ".---",
+   "K": "-.-",
+   "L": ".-..",
+   "M": "--",
+   "N": "-.",
+   "O": "---",
+   "P": ".--.",
+   "Q": "--.-",
+   "R": ".-.",
+   "S": "...",
+   "T": "-",
+   "U": "..-",
+   "V": "...-",
+   "W": ".--",
+   "X": "-..-",
+   "Y": "-.--",
+   "Z": "--.."
+}
+
+```
